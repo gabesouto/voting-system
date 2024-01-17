@@ -1,5 +1,8 @@
 package com.betrybe.sistemadevotacao;
 
+/**
+ * principal class.
+ */
 public class Principal {
 
   public static void main(String[] args) {

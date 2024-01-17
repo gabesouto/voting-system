@@ -1,5 +1,8 @@
 package com.betrybe.sistemadevotacao;
 
-public class PessoaEleitora{
+/**
+ * Javadoc comment for the PessoaCandidata class.
+ */
+public class PessoaEleitora {
 
 }
