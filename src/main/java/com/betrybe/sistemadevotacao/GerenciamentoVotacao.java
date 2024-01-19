@@ -48,7 +48,6 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
         if (pessoaCandidata.numero == numeroPessoaCandidata) {
           pessoaCandidata.receberVoto();
           cpfsComputados.add(cpfPessoaEleitora);
-          System.out.println(cpfsComputados);
           return;
         }
       }
