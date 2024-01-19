@@ -1,5 +1,4 @@
-# Sistema de Votação - Projeto Finalizado
-
+# Sistema de Votação 
 ## Descrição
 
 Bem-vindo ao repositório do projeto **Sistema de Votação**! Neste projeto,tive oportunidade de desenvolver um sistema de votação eletrônico utilizando a linguagem Java. O projeto consistiu em três etapas principais:
