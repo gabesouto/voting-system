@@ -36,12 +36,41 @@ O projeto está estruturado da seguinte forma:
 - `trybe-filter-repo.sh`: Script para filtrar o repositório da Trybe.
 - `trybe.yml`: Configurações específicas da Trybe para o GitHub Actions.
 
+  ## Rodando o sistema
+  
+  Clone the project
 
+````bash
+git clone git@github.com:gabesouto/voting-system.git
 
-### Durante o Desenvolvimento
+````
+Entre no diretório do projeto
 
-Durante o desenvolvimento, utilize o Maven  para executar as tarefas relacionadas à construção e execução do projeto. Certifique-se de seguir as orientações do Checkstyle para garantir a consistência do código.
+```bash
+  cd voting-system
+````
+Instale as dependências
+```bash
+  mvn install
+````
 
+## Exemplo de uso:
 
+ rode o arquivo Principal.java
+```text
+ Entre com o número correspondente à opção desejada:
+ 1 - Votar
+ 2 - Resultado Parcial
+ 3 - Finalizar Votação
+ 1
+ Entre com o cpf da pessoa eleitora:
+123.456.789-00
+ Entre com o número da pessoa candidata:
+ 1
+ Entre com o número correspondente à opção desejada:
+ 1 - Votar
+ 2 - Resultado Parcial
+ 3 - Finalizar Votação
+```
 
 
